@@ -1,0 +1,53 @@
+#btnShop span {
+    display: inline-block;
+    background-color: #8aa97b;
+    padding: 30px 20px;
+    color: #FFF;
+}
+
+#img-backpack, .cont-img img {
+    margin: 0 auto;
+    display: block;
+}
+
+#jumbo-img {
+    position: relative;
+}
+
+#cont-off{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #8aa97b;
+    color: #FFF;
+    right: 200px;
+}
+
+#cont-off span{
+    padding: 5px 0px 0px 30px;
+    display: block;
+    font-size: 20px;
+}
+
+.cont-img {
+    padding: 15px 5px;
+    margin: 15px;
+    background-color: #D4E8F1;
+    width: 150px;
+    height: 180px;
+}
+
+.cont-prod {
+    display: inline-block;
+}
+
+.cont-img img{
+    height: 100%;
+}
+
+#cont-products {
+    overflow-x: scroll;
+    display: flex;
+}
